@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: brown;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: goldenrod;
+    border: 10px solid bisque;
+    background-color: black;
+}
+
+h2 {
+    margin-top: 60px;
+    display: block;
+    text-align: center;
+    color: bisque;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 8px;
+}
+
+#computer-choice {
+    color: black;
+}
+
+#user-choice {
+    color: black;
+}
+
+#result {
+    color: goldenrod;
+}
+
+button {
+    display: flex;
+    margin: 100px;
+    justify-content: space-between;
+    background-color: black;
+    border: none;
+    color: goldenrod;
+    padding: 15px 32px;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+}
+
